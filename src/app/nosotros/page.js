@@ -1,13 +1,13 @@
 import React from 'react'
 import {Nav} from '../components/Nav'
-import {Content} from '../components/Content'
+import { Serv } from '../components/Secserv'
 
 
 export default function page2() {
   return (
     <>
     <Nav/>
-    <Content/>
+    <Serv/>
     </>
   )
 }

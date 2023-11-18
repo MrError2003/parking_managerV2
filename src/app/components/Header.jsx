@@ -1,7 +1,7 @@
 "use client"
 
-
 import React from 'react'
+import Link from 'next/link'
 
 export const Header = () => {
     return (
@@ -50,7 +50,7 @@ export const Header = () => {
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium.
             </p>
-            {/* <a
+             <Link
               href="/"
               aria-label="Scroll down"
               className="flex items-center justify-center w-10 h-10 mx-auto text-white duration-300 transform border border-gray-400 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110"
@@ -64,7 +64,7 @@ export const Header = () => {
               >
                 <path d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z" />
               </svg>
-            </a> */}
+            </Link>
           </div>
         </div>
       </div>
