@@ -23,7 +23,7 @@ export const Historia = () => {
               <div>
                 <div className="flex items-center justify-center w-12 h-12 mb-4">
                   <Image
-                    src="/images/icon-guarda.gif"
+                    src="/images/personal.gif"
                     width={200}
                     height={200}
                   />
@@ -33,13 +33,15 @@ export const Historia = () => {
                 </h6>
                 <p className="text-sm text-gray-100">
                 Nos comprometemos a proporcionar un entorno 
-                de cuidado que te brinde total tranquilidad.
+                de cuidado que te brinde total tranquilidad
+                con nuestro personal capacitado y listo para
+                brindar nuestros servicios.
                 </p>
               </div>
               <div>
                 <div className="flex items-center justify-center w-12 h-12 mb-4">
                 <Image
-                    src="/images/icon-ubicacion.gif"
+                    src="/images/ubicacion.gif"
                     width={200}
                     height={200}
                   />

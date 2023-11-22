@@ -1,10 +1,12 @@
 "use client"
 
-import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export const Header = () => {
+
+
   return (
     <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 bg-gray-800" >
       <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
@@ -17,10 +19,11 @@ export const Header = () => {
           <path d="M50 0H100L50 100H0L50 0Z" />
         </svg>
 
-        <img
+        <Image
           className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
+          width={1000}
+          height={1000}
           src="/images/fondo1.jpeg"
-          alt=""
         />
 
       </div>
