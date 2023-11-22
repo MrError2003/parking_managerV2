@@ -1,13 +1,13 @@
 import {Nav} from './components/Nav'
-import {H2} from './components/Header2'
 import {Ft} from './components/Footer'
 import { Serv } from './components/Secserv'
+import { Header } from './components/Header'
 
 export default function Home() {
   return (
     <>
       <Nav/>
-      <H2/>
+      <Header/>
       <Serv/>
       <Ft/>
     </>

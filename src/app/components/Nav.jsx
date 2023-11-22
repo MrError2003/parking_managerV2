@@ -7,7 +7,7 @@ export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div class="bg-gradient-to-br from-gray-900 to-gray-700">
+    <div class="bg-gradient-to-r from-gray-700 via-gray-600 to-gray-700">
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="relative flex grid items-center grid-cols-2 lg:grid-cols-3">
           <ul class="flex items-center hidden space-x-8 lg:flex">
@@ -55,20 +55,11 @@ export const Nav = () => {
 
                 <Link href="/registro">
                   <button type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
-                    INICIAR SESION
+                    INGRESA
                   </button>
                 </Link>
 
               </Link>
-            </li>
-            <li>
-
-              <Link href="/registro" >
-                <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
-                  REGISTRATE
-                </button>
-              </Link>
-
             </li>
           </ul>
 
