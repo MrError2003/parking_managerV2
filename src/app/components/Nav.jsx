@@ -12,18 +12,17 @@ export const Nav = () => {
         <div class="relative flex grid items-center grid-cols-2 lg:grid-cols-3">
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
-              <Link className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400" href="/nosotros">Nosotros</Link>
+              <Link className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400" href="/nosotros">
+                Nosotros
+              </Link>
             </li>
             <li>
-              <Link className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400" href="/prueba">Servicios</Link>
+              <Link className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400" href="/prueba">
+                Servicios
+              </Link>
             </li>
             <li>
-              <Link
-                href="/"
-                aria-label="Product pricing"
-                title="Product pricing"
-                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-              >
+              <Link className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400" href="/planes">
                 Planes
               </Link>
             </li>
