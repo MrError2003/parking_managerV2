@@ -1,7 +1,8 @@
 "use client"
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
+
 
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -44,26 +45,18 @@ export const Nav = () => {
               PARKING MANAGER
             </span>
           </Link>
-          <ul class="flex items-center hidden ml-auto space-x-8 lg:flex">
+
+        
+          <ul className="flex items-center hidden ml-auto space-x-8 lg:flex">
             <li>
-              <Link
-                href="/"
-                aria-label="Sign in"
-                title="Sign in"
-              >
-
-                <Link href="/registro">
-                  <button type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
-                    INGRESA
-                  </button>
-                </Link>
-
+              <Link href="/ingreso">
+                <button type="button" className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+                  INGRESA
+                </button>
               </Link>
             </li>
           </ul>
-
-
-
+      
           <div class="ml-auto lg:hidden">
             <button
               aria-label="Open Menu"
@@ -151,24 +144,15 @@ export const Nav = () => {
                           Planes
                         </Link>
                       </li>
+
                       <li>
                         <Link
-                          href="/"
-                          aria-label="Sign in"
-                          title="Sign in"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          INICIA SESION
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/"
+                          href="/registro"
                           class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                           aria-label="Sign up"
                           title="Sign up"
                         >
-                          REGISTRATE
+                          INGRESA
                         </Link>
                       </li>
                     </ul>

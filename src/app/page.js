@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Nav/>
-      <Serv/>
+       <Serv/>
       <H3/>
       <Ft/>
     </>

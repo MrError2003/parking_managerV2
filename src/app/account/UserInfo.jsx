@@ -1,7 +1,6 @@
 import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
 import { cookies } from 'next/headers'
-import AccountForm from './account-form'
-import Avatar from '../Avatar'
+import Avatar from '../components/Avatar'
 
 
 export default async function Account() {
@@ -16,3 +15,4 @@ export default async function Account() {
   return <Avatar url = {user.user_metadata.avatar_url} email={user.email}/>
   
 }
+
