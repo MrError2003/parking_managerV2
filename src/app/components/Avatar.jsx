@@ -1,6 +1,4 @@
 import React from 'react'
-import Info from '../account/UserInfo'
-
 
 export default function Avatar({ url, email }) {
     return (
@@ -14,8 +12,6 @@ export default function Avatar({ url, email }) {
                     alt=""
                 />
             </div>
-
         </>
-
     )
 }

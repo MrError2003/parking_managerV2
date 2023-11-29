@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
-import Image from 'next/image';
+import Image from 'next/image'
 
 
 export const Nav = () => {
@@ -46,6 +46,7 @@ export const Nav = () => {
             </span>
           </Link>
 
+         
         
           <ul className="flex items-center hidden ml-auto space-x-8 lg:flex">
             <li>

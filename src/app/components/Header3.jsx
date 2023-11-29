@@ -40,7 +40,7 @@ export const H3 = () => {
                             aria-label=""
                             className="inline-flex items-center font-semibold tracking-wider transition-colors duration-200 text-teal-accent-400 hover:text-teal-accent-700"
                         >
-                            Learn more
+                            Precios...
                             <svg
                                 className="inline-block w-3 ml-2"
                                 fill="currentColor"

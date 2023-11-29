@@ -1,9 +1,9 @@
 import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
 import { cookies } from 'next/headers'
-import Avatar from '../components/Avatar'
+import Avatar from './Avatar'
 
 
-export default async function Account() {
+export default async function User() {
   const supabase = createServerComponentClient({ cookies })
 
   const {

@@ -13,7 +13,7 @@ export const Planes = () => {
             </span>{' '}
             y planes mas populares.
           </h2>
-          <p className="text-base text-gray-700 md:text-lg">
+          <p className="text-base text-white-700 md:text-lg">
             Aca estan los planes mas populares, pero si necesitas algo mas
             consulta en los establecimientos.
           </p>
@@ -66,26 +66,27 @@ export const Planes = () => {
             <div>
               <a
                 href="/"
-                className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-500 hover:bg-blue-700 focus:shadow-outline focus:outline-none"
+                className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 bg-blue-600 rounded shadow-md hover:bg-blue-900 focus:shadow-outline focus:outline-none"
               >
                 Comprar
               </a>
+
               <p className="max-w-xs mt-6 text-xs text-gray-600 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
-                Sed ut unde omnis iste natus accusantium doloremque.
+                Ten en cuenta que el lavado y mecanico debe ser reservado.
               </p>
             </div>
           </div>
           <div className="flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow">
             <div className="text-center">
-              <div className="text-lg font-semibold">Business</div>
+              <div className="text-lg font-semibold text-black">Membresia anual</div>
               <div className="flex items-center justify-center mt-2">
-                <div className="mr-1 text-5xl font-bold">$78</div>
-                <div className="text-gray-700">/ mo</div>
+                <div className="mr-1 text-5xl font-bold text-gray-700">1.100.000</div>
+                <div className="text-gray-700">$</div>
               </div>
               <div className="mt-2 space-y-3">
-                <div className="text-gray-700">500 GB of storage</div>
-                <div className="text-gray-700">Unlimited domains</div>
-                <div className="text-gray-700">24/7 Support</div>
+                <div className="text-gray-700">2 espacios asignados</div>
+                <div className="text-gray-700">Revisión tecnicomecanica</div>
+                <div className="text-gray-700">Grua de emergencia 24/7</div>
               </div>
             </div>
             <div>
@@ -93,10 +94,10 @@ export const Planes = () => {
                 href="/"
                 className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 bg-gray-800 rounded shadow-md hover:bg-gray-900 focus:shadow-outline focus:outline-none"
               >
-                Buy Business
+                Comprar
               </a>
               <p className="max-w-xs mt-6 text-xs text-gray-600 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
-                Sed ut unde omnis iste natus accusantium doloremque.
+                La grua tiene covertura de maximo 20 kilometros.
               </p>
             </div>
           </div>
