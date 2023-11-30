@@ -4,7 +4,8 @@ import { Mecanic } from '../components/Mecanic'
 import { Ft } from '../components/Footer'
 import { Monitoreo } from '../components/Monitoreo'
 import Parking from '../components/Parking'
-import { Autolavado } from '../components/Autolavado'
+import Autolavado from '../components/Autolavado'
+import { Electricos } from '../components/Electricos'
 
 
 export default function page() {
@@ -12,8 +13,9 @@ export default function page() {
     <>
     <Nav/>
     <Parking/>
-    <Mecanic/>
     <Autolavado/>
+    <Mecanic/>
+    <Electricos/>
     <Monitoreo/>
     <Ft/>
     </>
