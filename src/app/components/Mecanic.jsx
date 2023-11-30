@@ -210,7 +210,7 @@ export const Mecanic = () => {
                                 </h6>
                                 <p className="text-sm text-white">
                                 Los servicios completos para mantener tu motocicleta 
-                                en su mejor forma. ¡Rueda con confianza y estilo!"
+                                en su mejor forma. ¡Rueda con confianza y estilo!
                                 </p>
                             </div>
                         </div>
