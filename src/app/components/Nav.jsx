@@ -6,6 +6,7 @@ import Image from 'next/image'
 
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  
 
   return (
     <div class="bg-gradient-to-r from-gray-700 via-gray-600 to-gray-700">
@@ -18,7 +19,7 @@ export const Nav = () => {
               </Link>
             </li>
             <li>
-              <Link className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400" href="/prueba">
+              <Link className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400" href="/servicios">
                 Servicios
               </Link>
             </li>
@@ -57,6 +58,7 @@ export const Nav = () => {
               </Link>
             </li>
           </ul>
+
       
           <div class="ml-auto lg:hidden">
             <button

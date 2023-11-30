@@ -1,6 +1,7 @@
 import React from 'react'
 import {Nav} from '../components/Nav'
 import { Planes } from '../components/Pricing'
+import { Ft } from '../components/Footer'
 
 
 export default function precios() {
@@ -8,6 +9,7 @@ export default function precios() {
     <>
       <Nav/>
       <Planes/>
+      <Ft/>
     </>
   )
 }
