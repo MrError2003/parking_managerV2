@@ -44,7 +44,7 @@ export const Mecanic = () => {
                 <div
                     href="/"
                     aria-label="View Item"
-                    className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
+                    className="inline-block overflow-hidden duration-300 transform bg-gray-700 rounded shadow-sm hover:-translate-y-2"
                 >
                     <div className="flex flex-col h-full">
                         <Image
@@ -53,12 +53,12 @@ export const Mecanic = () => {
                             height={200}
                             alt="Picture of the author"
                         />
-                        <div className="flex-grow border border-t-0 rounded-b">
+                        <div className="flex-grow rounded-b">
                             <div className="p-5">
-                                <h6 className="text-gray-800 mb-2 font-semibold leading-5">
+                                <h6 className="text-white mb-2 font-semibold leading-5">
                                     Cambio de aceite
                                 </h6>
-                                <p className="text-sm text-gray-900">
+                                <p className="text-sm text-white">
                                 Revitaliza tu motor con nuestro servicio de cambio 
                                 de aceite y filtros. Potencia, rendimiento y durabilidad garantizados.
                                 </p>
@@ -69,7 +69,7 @@ export const Mecanic = () => {
                 <div
                     href="/"
                     aria-label="View Item"
-                    className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
+                    className="inline-block overflow-hidden duration-300 transform bg-gray-700 rounded shadow-sm hover:-translate-y-2"
                 >
                     <div className="flex flex-col h-full">
                         <Image
@@ -78,12 +78,12 @@ export const Mecanic = () => {
                             height={200}
                             alt="Picture of the author"
                         />
-                        <div className="flex-grow border border-t-0 rounded-b">
+                        <div className="flex-grow rounded-b">
                             <div className="p-5">
-                                <h6 className="text-gray-800 mb-2 font-semibold leading-5">
+                                <h6 className="text-white mb-2 font-semibold leading-5">
                                     Alineacion y balanceo de ruedas
                                 </h6>
-                                <p className="text-sm text-gray-900">
+                                <p className="text-sm text-white">
                                 Optimiza tu viaje: Alineación y balanceo de ruedas 
                                 para un manejo suave, seguro y sin problemas.
                                 </p>
@@ -94,7 +94,7 @@ export const Mecanic = () => {
                 <div
                     href="/"
                     aria-label="View Item"
-                    className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
+                    className="inline-block overflow-hidden duration-300 transform bg-gray-700 rounded shadow-sm hover:-translate-y-2"
                 >
                     <div className="flex flex-col h-full">
                         <Image
@@ -103,12 +103,12 @@ export const Mecanic = () => {
                             height={200}
                             alt="Picture of the author"
                         />
-                        <div className="flex-grow border border-t-0 rounded-b">
+                        <div className="flex-grow rounded-b">
                             <div className="p-5">
-                                <h6 className="text-gray-800 mb-2 font-semibold leading-5">
+                                <h6 className="text-white mb-2 font-semibold leading-5">
                                     Mantenimiento de frenos.
                                 </h6>
-                                <p className="text-sm text-gray-900">
+                                <p className="text-sm text-white">
                                 Seguridad en cada frenada: Reparamos frenos para un viaje 
                                 tranquilo. Confía en nosotros para un rendimiento impecable.
                                 </p>
@@ -119,7 +119,7 @@ export const Mecanic = () => {
                 <div
                     href="/"
                     aria-label="View Item"
-                    className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
+                    className="inline-block overflow-hidden duration-300 transform bg-gray-700 rounded shadow-sm hover:-translate-y-2"
                 >
                     <div className="flex flex-col h-full">
                         <Image
@@ -128,12 +128,12 @@ export const Mecanic = () => {
                             height={200}
                             alt="Picture of the author"
                         />
-                        <div className="flex-grow border border-t-0 rounded-b">
+                        <div className="flex-grow rounded-b">
                             <div className="p-5">
-                                <h6 className="text-gray-800 mb-2 font-semibold leading-5">
+                                <h6 className="text-white mb-2 font-semibold leading-5">
                                     Reparacion de suspension
                                 </h6>
-                                <p className="text-sm text-gray-900">
+                                <p className="text-sm text-white">
                                 Suavidad en cada ruta: Reparamos y mejoramos la 
                                 suspensión para un manejo cómodo y sin sobresaltos.
                                 </p>
@@ -144,7 +144,7 @@ export const Mecanic = () => {
                 <div
                     href="/"
                     aria-label="View Item"
-                    className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
+                    className="inline-block overflow-hidden duration-300 transform bg-gray-700 rounded shadow-sm hover:-translate-y-2"
                 >
                     <div className="flex flex-col h-full">
                         <Image
@@ -153,12 +153,12 @@ export const Mecanic = () => {
                             height={200}
                             alt="Picture of the author"
                         />
-                        <div className="flex-grow border border-t-0 rounded-b">
+                        <div className="flex-grow rounded-b">
                             <div className="p-5">
-                                <h6 className="text-gray-800 mb-2 font-semibold leading-5">
+                                <h6 className="text-white mb-2 font-semibold leading-5">
                                     Revision tecnicomecanica
                                 </h6>
-                                <p className="text-sm text-gray-900">
+                                <p className="text-sm text-white">
                                 Asegura tu viaje: Realizamos revisiones tecnomecánicas 
                                 para garantizar que tu vehículo cumpla con los estándares de seguridad.
                                 </p>
@@ -169,7 +169,7 @@ export const Mecanic = () => {
                 <div
                     href="/"
                     aria-label="View Item"
-                    className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
+                    className="inline-block overflow-hidden duration-300 transform bg-gray-700 rounded shadow-sm hover:-translate-y-2"
                 >
                     <div className="flex flex-col h-full">
                         <Image
@@ -178,12 +178,12 @@ export const Mecanic = () => {
                             height={200}
                             alt="Picture of the author"
                         />
-                        <div className="flex-grow border border-t-0 rounded-b">
+                        <div className="flex-grow rounded-b">
                             <div className="p-5">
-                                <h6 className="text-gray-800 mb-2 font-semibold leading-5">
+                                <h6 className="text-white mb-2 font-semibold leading-5">
                                     Reparaciones electricas
                                 </h6>
-                                <p className="text-sm text-gray-900">
+                                <p className="text-sm text-white">
                                 Potencia sin problemas: Reparamos tu sistema eléctrico 
                                 para un rendimiento fiable. Conecta con seguridad y eficiencia
                                 </p>
@@ -194,7 +194,7 @@ export const Mecanic = () => {
                 <div
                     href="/"
                     aria-label="View Item"
-                    className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
+                    className="inline-block overflow-hidden duration-300 transform bg-gray-700 rounded shadow-sm hover:-translate-y-2"
                 >
                     <div className="flex flex-col h-full">
                         <Image
@@ -203,12 +203,12 @@ export const Mecanic = () => {
                             height={200}
                             alt="Picture of the author"
                         />
-                        <div className="flex-grow border border-t-0 rounded-b">
+                        <div className="flex-grow rounded-b">
                             <div className="p-5">
-                                <h6 className="text-gray-800 mb-2 font-semibold leading-5">
+                                <h6 className="text-white mb-2 font-semibold leading-5">
                                     Tambien es para motocicletas
                                 </h6>
-                                <p className="text-sm text-gray-900">
+                                <p className="text-sm text-white">
                                 Los servicios completos para mantener tu motocicleta 
                                 en su mejor forma. ¡Rueda con confianza y estilo!"
                                 </p>
@@ -219,7 +219,7 @@ export const Mecanic = () => {
                 <div
                     href="/"
                     aria-label="View Item"
-                    className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
+                    className="inline-block overflow-hidden duration-300 transform bg-gray-700 rounded shadow-sm hover:-translate-y-2"
                 >
                     <div className="flex flex-col h-full">
                         <Image
@@ -228,12 +228,12 @@ export const Mecanic = () => {
                             height={200}
                             alt="Picture of the author"
                         />
-                        <div className="flex-grow border border-t-0 rounded-b">
+                        <div className="flex-grow rounded-b">
                             <div className="p-5">
-                                <h6 className="text-gray-800 mb-2 font-semibold leading-5">
+                                <h6 className="text-white mb-2 font-semibold leading-5">
                                     Y para bicicletas?
                                 </h6>
-                                <p className="text-sm text-gray-900">
+                                <p className="text-sm text-white">
                                 Sí, también cuidamos de tu bicicleta: reparaciones expertas para que pedalear 
                                 sea siempre suave y seguro. ¡Mantenimiento completo para tu movilidad activa!
                                 </p>
@@ -245,9 +245,9 @@ export const Mecanic = () => {
             <div className="text-center">
                 <a
                     href="/"
-                    className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                    className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-purple-700 hover:bg-purple-800 focus:shadow-outline focus:outline-none"
                 >
-                    Learn more
+                    Reserva...
                 </a>
             </div>
         </div>
